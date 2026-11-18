@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ammie’s Creations | Custom tumblers, DTF apparel and bling</title>
+    <meta name="description" content="Custom name tumblers, team jerseys, senior mom photo shirts, bling jean jackets and memorial keepsakes, designed and pressed by Ammie for customers across the USA." />
+    <meta name="theme-color" content="#f0428b" />
+    <meta property="og:title" content="Ammie’s Creations" />
+    <meta property="og:description" content="If you can imagine it, Ammie will make it. Custom tumblers, DTF apparel and bling." />
+    <meta property="og:image" content="/img/brand-ammie.webp" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      // paint the saved theme's background before the app loads (no flash)
+      try {
+        var t = localStorage.getItem('ammies-theme');
+        var bg = { lavender: '#ebe2ff', peach: '#ffe2d4', rose: '#1a0c14', galaxy: '#140f2b' }[t];
+        if (bg) document.documentElement.style.background = bg;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
